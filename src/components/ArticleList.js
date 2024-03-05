@@ -5,7 +5,7 @@ const ArticleList=({posts})=>{
       return(
         <main>
             {posts.map((post, id)=>(
-                <Article key={id} title={post.title} date={post.date} preview={post.preview} />
+                <Article key={id} title={post.title} date={post.date} minutes={post.minutes} preview={post.preview} />
 
             ))}
             
